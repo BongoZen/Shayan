@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Aberdeen" constructor="DataGrid" version="2.0.33" display-name-key="DataGrid" description-key="ContactMatchControl description" control-type="standard">
+    
+    <property name="selectedContactId" display-name-key="Selected contact" description-key="Bind to a text field. Set to the id of the confirmed contact." 
+    of-type="SingleLine.Text" usage="bound" required="false" />
+    
+    <property name="Customer" display-name-key="CustomerId" description-key="CustomerId" of-type="SingleLine.Text" usage="output" />
+
+    <property name="UserConfirmed" display-name-key="UserConfirmed" description-key="UserConfirmed" of-type="TwoOptions" usage="bound" />
+
+    
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

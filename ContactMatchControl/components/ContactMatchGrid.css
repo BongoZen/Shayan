@@ -1,0 +1,34 @@
+.pcf-cmg {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.pcf-cmg-toolbar {
+    padding: 4px 0 12px;
+}
+
+.pcf-cmg-loading {
+    padding: 24px;
+}
+
+.pcf-cmg-readonly {
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+.pcf-cmg-pagination {
+    padding: 8px 4px;
+}
+
+.pcf-cmg-callout {
+    padding: 12px;
+    width: 240px;
+}
+
+.pcf-cmg-divider {
+    border-top: 1px solid #e0e0e0;
+    margin: 8px 0 10px;
+}
+
+.pcf-cmg-callout-title {
+    margin-bottom: 10px;
+}

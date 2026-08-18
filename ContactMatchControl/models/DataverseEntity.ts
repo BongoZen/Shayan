@@ -1,0 +1,1 @@
+export type DataverseEntity = Record<string, unknown>;
